@@ -1,5 +1,5 @@
 {
-  "name": "konnco/filament-import",
+  "name": "mellojoaoaus/filament-import",
   "description": "",
   "keywords": [
     "import",
@@ -8,7 +8,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Konnco\\FilamentImport\\": "src/"
+      "Mellojoaoaus\\FilamentImport\\": "src/"
     }
   },
   "license": "MIT",
@@ -44,7 +44,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Konnco\\FilamentImport\\Tests\\": "tests"
+      "Mellojoaoaus\\FilamentImport\\Tests\\": "tests"
     }
   },
   "scripts": {
@@ -65,7 +65,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Konnco\\FilamentImport\\FilamentImportServiceProvider"
+        "Mellojoaoaus\\FilamentImport\\FilamentImportServiceProvider"
       ]
     }
   }
