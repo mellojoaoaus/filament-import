@@ -134,6 +134,7 @@ class ImportAction extends Action
                 ->acceptedFileTypes(config('filament-import.accepted_mimes'))
                 ->imagePreviewHeight('250')
                 ->reactive()
+                ->visibility('private')
                 ->disk($this->getTemporaryDisk())
                 ->directory($this->getTemporaryDirectory())
                 ->afterStateUpdated(function (callable $set, TemporaryUploadedFile $state) {
